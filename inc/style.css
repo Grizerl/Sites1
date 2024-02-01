@@ -1,0 +1,105 @@
+body{
+    margin: 0px;
+}
+.header{
+    background: url('../img/car.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: left center;
+    background-size: cover;
+}
+.headline{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+}
+.text{
+    background: #ffffff;
+    border-radius: 10px;
+    height: 67vh;
+    position: relative;
+    width: 40vh;
+    top: 16vh;
+}
+.headline-text{
+    font-size: 72px;
+    line-height: 1.17;
+    font-family: 'Euc',Arial,sans-serif;
+    font-weight: 600;
+    color: #fff;
+    margin-right: 50px;
+}
+.headline-span{
+    font-size: 26px;
+    line-height: 1.45;
+    font-family: 'Euc',Arial,sans-serif;
+    font-weight: 300;
+    color: #fff;
+}
+.form-title{
+    font-size: 22px;
+    font-family: 'Euc',Arial,sans-serif;
+    font-weight: 600;
+    color: #000000;
+    padding-left: 25px;
+    padding-top: 15px;
+}
+.pole{
+    color: #000000;
+    background-color: #f0f0f0;
+    height: 50px;
+    padding: 0 55px;
+    margin-left: 25px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    border: unset;
+    outline: none;
+}
+.form-subtitle{
+    font-size: 20px;
+    line-height: 1.55;
+    font-family: 'Euc',Arial,sans-serif;
+    font-weight: 300;
+    color: #000000;
+    padding-left: 25px;
+}
+.pole_selection{
+    color: #000000;
+    background-color: #f0f0f0;
+    width: 84%;
+    box-sizing: border-box;
+    margin-left: 25px;
+    cursor: pointer;
+    height: 55px;
+    padding: 0 45px 0 20px;
+    font-size: 16px;
+    line-height: 1.33;
+    outline: none;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    font-family: 'Euc',Arial,sans-serif;
+}
+.btn{
+    width: 80%;
+    height: 50px;
+    padding-right: 30px;
+    padding-left: 30px;
+    color: #ffffff;
+    margin-left: 34px;
+    background-color: #2ec681;
+    border: none;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+}
